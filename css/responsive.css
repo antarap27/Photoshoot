@@ -1,0 +1,60 @@
+
+/* Use a media query to add a breakpoint at 1200px: */
+@media screen and (max-width: 1200px) {
+
+    .topnav {
+        flex-direction: column;  
+    }
+    .navbar {
+        transition: all 0.7s ease-out; 
+        height: 265px;
+        flex-direction: column;        
+    }
+    .nav-list{
+        height: 265px;
+        flex-direction: column;        
+    }
+    .left-items {
+        align-items: center;
+    }
+    .right-items {
+        align-items: center;
+    }
+    .burger {
+        display: block;
+    }
+    .h-nav-resp {
+        height: 60px;
+    }
+    .v-class-resp {
+        opacity: 0;
+    }
+    .footer-section {
+        height: 280px;
+    }
+    .footer-top {
+        width: 100%;
+        text-align: center;
+    }
+    }
+    /* Use a media query to add a breakpoint at 600px: */   
+    @media screen and (max-width: 600px) {
+        .right-items {
+            width: fit-content;
+        }
+    }
+    /* Use a media query to add a breakpoint at 768px: */
+    @media screen and (max-width: 768px) {
+        .post-card {
+            flex-direction: column-reverse;
+        }
+    .footer-top {
+        padding: 0px 50px;
+    }
+    .mid-section {
+        flex-direction: column-reverse;
+    }
+    .post-card {
+        flex-direction: column-reverse;
+    }
+}

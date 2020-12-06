@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&family=Ubuntu&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    cursor: pointer;
+    background-color: black;
+}
+.nav-list {
+    padding-top: 10px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    height: 30px;
+}
+.right-items li{
+    list-style: none;
+    display: flex;
+    padding: 20px 55px;
+}
+.right-items li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.topnav {
+    display: flex;
+}
+.nav-list li a:hover{
+    color: rgb(201, 194, 194);
+}
+.left-items {
+    width: 40%;
+}
+.right-items {
+    width: 50%;
+}
+.logo {
+    display: flex;
+    width: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.logo img {
+    width: 44px;
+    border-radius: 50px;
+}
+
+/* carousal-start*/
+.carousel-item img {
+    height: 490px;
+}
+
+/* content starts */
+.content-para {
+    text-align: justify;
+    justify-content: center;
+}
+.text-big {
+    text-align: center;
+    font-size: 20px;
+}
+.post-card {
+    display: flex;
+}
+.items {
+    margin: 5px 40px;
+    align-items: center;
+    justify-content: center;
+}
+.items img{
+    border-radius: 7px;
+}
+.btn-sm {
+    align-items: center;
+    font-weight: 200;
+    font-size: 17px;
+}
+.card-text {
+    text-align: justify;
+}
+.footer-section {
+background-color: black;
+color: white;
+height: 200px;
+}
+.nowrap {
+    display: block;
+}
+.footer-part {
+    text-align: center;
+    cursor: pointer;
+    padding-top: 12px;
+}
+.row {
+    flex-direction: column;
+}
+ .footer-top {
+    text-align: left;
+    padding: 0 190px;
+    width: 50%;
+} 
+.address {
+    font-size: 14px;
+}
+.footer-copyright {
+    text-align: center;
+    font-size: 14px;
+}
+.footer-links a {
+    padding: 0px 10px;
+}
+
+/* blog css */
+.box-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 70%;
+    margin: auto;
+    height: 60%;
+}   
+.firstSection {
+    height: 100vh;
+}
+.firstHalf{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.text-small {
+    font-size: 15px;
+    text-align: justify;
+}
+.mid-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 380px; */
+    max-width: 80%;
+    margin: auto;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 10px;
+}
+.section-left{
+    flex-direction: row-reverse;
+}
+.para{
+    padding: 0 50px;
+}
+.secsubTag {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.thumbnail img {
+    border-radius: 20px;
+}
+.secTag {
+    padding: 16px 0;
+}
+
+/* contact css */
+.background {
+    background: rgba(0, 0, 0, 0.7) url('../img/pexels-photo.jpeg');
+    background-size: cover;
+    background-blend-mode: darken;
+    height: 800px;
+}
+.contact-bg {
+    background: rgba(0, 0, 0, 0.7) url('../img/pexels.jpeg');
+    background-size: cover;
+    background-blend-mode: darken;
+    height: 1000px;
+}
+.text-center {
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.form {
+    margin: 20px auto;
+    max-width: 400px;
+}
+.form-input {
+    width: 100%;
+    font-size: 14px;
+    border-radius: 6px;
+    border: 2px solid grey;
+    margin: 14px 0;
+    padding: 5px 8px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.text-footer {
+    font-family: 'Ubuntu', sans-serif;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+.btn {
+    padding: 7px 13px;
+    margin: 8px 4px;
+    border: 2px solid white;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    align-items: center;
+}
+.contact-box {
+    display: block;
+}
+.mapping {
+    display: block;
+}
+.burger {
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+}
+.line {
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 3px 3px;
+}
